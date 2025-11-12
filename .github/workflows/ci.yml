@@ -1,7 +1,4 @@
 name: User Service CI
-name: Clear pip cache
-run: |
-  pip cache purge
 on:
   push:
     branches: [ main, develop ]
