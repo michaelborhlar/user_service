@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'django_filters',
     
-    'apps.users',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -94,7 +94,7 @@ CACHES = {
 # REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'apps.users.authentication.JWTAuthentication',
+        'users.authentication.JWTAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
