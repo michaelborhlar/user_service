@@ -11,7 +11,6 @@ graph TB
     PS[Push Service] --> US
     US --> PG[(PostgreSQL)]
     US --> RD[(Redis)]
-    style US fill:#e1f5fe,stroke:#01579b,stroke-width:2px
 
 
 
